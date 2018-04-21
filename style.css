@@ -1,0 +1,48 @@
+@font-face{
+	font-family: 'Frozito';
+	src: url('fonts/Frozito.ttf');
+}
+
+@font-face{
+	font-family: 'Wizard Of The Moon';
+	src: url('fonts/Wizard Of The Moon.ttf');
+}
+
+@font-face{
+	font-family: 'Fantasy Clipart';
+	src: url('fonts/Fantasy Clipart.ttf');
+}
+
+h1{
+	font-family: 'Frozito';
+	font-size: 50px;
+}
+
+p{
+	font-family: 'Wizard Of The Moon';
+	font-size: 25px;
+}
+.header{
+	border-style: outset;
+	border-color: #660033;
+	border-width: 5px;
+	background-image: linear-gradient(white, grey);
+}
+
+body{
+	background-image: url('img/bg.png');
+	color: #660033;
+}
+
+input{
+	font-family: 'Wizard Of The Moon';
+	font-size: 25px;
+	width: 40%;
+	color: #660033;
+	background-image: linear-gradient(white, grey);
+	transition: width 0.3s;
+}
+
+input:hover{
+	width: 35%;
+}

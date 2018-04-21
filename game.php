@@ -27,7 +27,7 @@
 	}
 
 	if(isset($_POST['EXPL_BUT'])){
-		#HERE
+		$_SESSION['expl_value'] = rand(0, 10);
 	}
 
 	if($_SESSION['action'] == 'class_choose'){					#Choosing class warrior/mage/thief
